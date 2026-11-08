@@ -1,0 +1,14 @@
+[project]
+name = "nest-tts"
+version = "0.1.0"
+description = "Text-to-speech playback on Google Nest / Chromecast speakers"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["pychromecast>=13", "gTTS>=2.3"]
+
+[project.scripts]
+nest-tts = "nest_tts.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

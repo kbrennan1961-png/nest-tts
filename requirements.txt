@@ -1,0 +1,2 @@
+pychromecast>=13
+gTTS>=2.3
